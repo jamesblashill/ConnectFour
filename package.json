@@ -1,0 +1,7 @@
+{
+  "name": "ConnectFour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "James Blashill <james@indigofair.com>",
+  "license": "MIT"
+}
