@@ -16,7 +16,7 @@ class ConnectFour {
     return this.board[row][column];
   }
 
-  setCell(row, column, cellValue) {
+  setCell(row, column, player) {
     this.board[row][column] = player;
   }
 
