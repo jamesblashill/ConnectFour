@@ -13,9 +13,9 @@ describe("ConnectFour", () => {
 
   test("Can play move", () => {
     const game = new ConnectFour();
-    expect(game.getCell(0, 0)).toBe(0);
+    expect(game.getCell(5, 0)).toBe(0);
     game.playMove(0, 1);
-    expect(game.getCell(0, 0)).toBe(1);
+    expect(game.getCell(5, 0)).toBe(1);
   });
 
   test("Can win horizonally", () => {
